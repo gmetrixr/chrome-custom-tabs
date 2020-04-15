@@ -1,4 +1,4 @@
-package com.gmetrixr.chrome_custom_tabs_android;
+package com.gmetrixr.chrome_custom_tabs;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
