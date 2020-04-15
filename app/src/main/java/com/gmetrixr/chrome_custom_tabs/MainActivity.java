@@ -8,7 +8,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-  private ChromeCustomTabsJwt chromeCustomTabs;
+  private ChromeCustomTabs chromeCustomTabs;
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
   }
 
   private void prepareChromeTabs() {
-    chromeCustomTabs = new ChromeCustomTabsJwt();
+    chromeCustomTabs = new ChromeCustomTabs();
     String url = "https://view.gmetri.com/v4/game/safehands_v2";
     chromeCustomTabs.initialize(url, this);
   }

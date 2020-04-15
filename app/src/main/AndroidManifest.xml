@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.gmetrixr.chrome_custom_tabs.ChromeCustomTabsJwt"/>
+        <activity android:name="com.gmetrixr.chrome_custom_tabs.ChromeCustomTabs"/>
     </application>
 
 </manifest>

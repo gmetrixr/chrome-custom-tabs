@@ -15,7 +15,7 @@ import androidx.browser.customtabs.CustomTabsSession;
 
 import java.lang.ref.WeakReference;
 
-public class ChromeCustomTabsJwt implements ServiceConnectionCallback {
+public class ChromeCustomTabs implements ServiceConnectionCallback {
   private static final String TAG = "chromecustomtabs";
   private String url = "";
   private CustomTabsSession customTabsSession;
